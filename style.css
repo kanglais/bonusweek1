@@ -1,0 +1,277 @@
+body {
+	margin: 0;
+	overflow-x: hidden;
+	margin-left: 4%;
+}
+div.background_image {
+	background: linear-gradient(
+	  	rgba(13, 52, 127, 0.85), 
+	  	rgba(13, 52, 127, 0.85)), 
+	 	url("http://codifyacademy.com/metroapp/img/background.jpg");
+ 	background-color: #cccccc;
+ 	background-repeat: no-repeat;
+ 	height: 530px;
+ 	width: 1450px;
+}
+.top_section {
+	margin: 0 300px;
+}
+.top_section .header {
+	padding: 30px 0 50px 0;
+}
+.top_section .header .meteor {
+	color: white;
+}
+.top_section .meteor {
+	margin-right: 150px;
+}
+.top_section .header .yellow {
+	color: #fdbc25;
+}
+.top_section a:visited {
+	color: white;
+}
+.top_section a:link {
+	color: white;
+	text-decoration: none;
+}
+.usersicon {
+	position: absolute;
+	left: 686px;
+	top: 20px;
+}
+.menu1 {
+	position: absolute;
+	left: 650px;
+	top: 50px;
+}
+.searchicon {
+	position: absolute;
+	left: 840px;
+	top: 20px;
+}
+.menu2 {
+	position: absolute;
+	left: 800px;
+	top: 50px;
+}
+.top_section .register {
+	float: right;
+	color: white;
+}
+.top_section .register .login {
+	font-weight: 700;
+	padding-right: 10px;
+}
+.top_section .signup_button {
+	background: #fdbc25;
+	width: 80px;
+	height: 29px;
+	border: 2px solid #041c38;
+	color: #d33920;
+	border-radius: 15px;
+	font-size: small;
+	font-weight: bold;
+	vertical-align: 25%;
+	position: relative;
+	left: 10px;
+}
+.top_section #above_fold {
+	width: 400px;
+	height: 300px;
+	float: left;
+}
+.top_section h2 {
+	color: white;
+	font-weight: 400;
+	font-size: 28px;
+}
+.top_section h3 {
+	color: white;
+	font-weight: 400;
+	font-size: 20px;
+}
+.top_section p {
+	color: white;
+	font-weight: 300;
+	line-height: 120%;
+}
+.top_section input[type=email]{
+	background: #041c38;
+	width: 260px;
+	height: 30px;
+	border: 0px solid black;
+	color: white;
+	border-radius: 2px;
+}
+.top_section input[type=submit] {
+	background: #fdbc25;
+	width: 120px;
+	height: 35px;
+	border: 2px solid #041c38;
+	color: #d33920;
+	border-radius: 5px;
+	font-size: small;
+}
+.top_section .left_of_button {
+	color: white;
+}
+.top_section #above_fold .search_button {
+	width: 255px;
+	height: 35px;
+	background-color: #20609a;
+	color: white;
+	border: 0 solid #20609a;
+	border-radius: 5px 3px 3px 5px;
+	line-height: 36px;
+	padding: 5px;
+}
+.top_section #above_fold .arrow {
+	width: 0;
+	height: 0;
+	border-bottom: 20px solid transparent;
+	border-top: 20px solid transparent;
+	border-left: 20px solid #20609a;
+	font-size: 0;
+	line-height: 0;
+	position: relative;
+	bottom: 5px;
+}
+.secondsection {
+	width: 450px;
+	float: left;
+	margin: 0 300px;
+}
+.secondsection h4 {
+	margin-bottom: 10px;
+}
+.secondsection .blue {
+	color: #0d347f;
+}
+.secondsection p {
+	font-size: 15px;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+body hr {
+	border-color: #eff1f3;
+	background-color: #eff1f3;
+}
+.one_two_three {
+	width: 800px;
+	height: 240px;
+	margin: 20px 300px;
+	text-align: center;
+}
+.one_two_three .first {
+	width: 265px;
+	float: left;
+}
+.one_two_three i {
+	background-color: #fdbc25;
+	color: white;
+	margin: auto;
+	padding: 10px 15px;
+	display: inline-block;
+	border-radius: 100px;
+	box-shadow: 0 0 2px #888;
+}
+.one_two_three h1 {
+	text-align: center;
+}
+.one_two_three .second {
+	width: 265px;
+	float: left;
+}
+.gray_bar {
+	height: 100px;
+	width: 1450px;
+	padding: 10px 0 35px 0;
+	background-color: #eff1f3;
+	text-align: center;
+}
+.gray_bar h2 {
+	color: #20609a;
+	font-weight: 400;
+	margin-bottom: 25px;
+}
+.gray_bar .leftbutton {
+	background: #fdbc25;
+	width: 250px;
+	height: 35px;
+	border: 0 solid white;
+	color: #d33920;
+	border-radius: 5px;
+	font-size: small;
+	font-weight: bold;
+}
+.gray_bar .rightbutton {
+	background: #20609a;
+  	width: 250px;
+  	height: 35px;
+  	border: 0 solid white;
+  	color: white;
+  	border-radius: 5px;
+  	font-size: small;
+  	font-weight: bold;
+}
+.logos {
+	width: 900px;
+	height: 100px;
+	margin: 50px 290px;
+	text-align: center;
+}
+.about {
+	width: 1425px;
+	height: 400px;
+	background-color: #0d347f;
+	color: white;
+}
+.about_us {
+	margin-left: 300px;
+	width: 600px;
+	float: left;
+	padding-right: 50px;
+	margin-top: 30px;
+	height: 250px;
+}
+.in_touch {
+	padding-top: 30px;
+}
+.fav {
+	color: lightblue;
+	margin-bottom: 5px;
+}
+.contact {
+	margin-bottom: 5px;
+}
+.soft {
+	color: #fdbc25;
+	margin-bottom: 50px;
+}
+.footer {
+	background-color: #063062;
+	color: white;
+	width: 1450px;
+}
+.links {
+	list-style-type: none;
+	margin: 0;
+	padding: 30px 0 0 300px;
+}
+.links ul {
+	padding: 0;
+}
+.links li {
+	display: inline;
+}
+.links a {
+	text-decoration: none;
+	color: lightblue;
+}
+.chat {
+	color: #fdbc25;
+	position: relative;
+	left: 950px;
+	bottom: 50px;
+}
