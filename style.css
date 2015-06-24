@@ -275,3 +275,81 @@ body hr {
 	left: 950px;
 	bottom: 50px;
 }
+@media screen and (max-width: 480px) {
+	div.background_image {
+		height: 500px;
+		width: 375px;
+	}
+	.top_section {
+		margin: 2px;
+	}
+	.top_section .header {
+		padding: 10px 5px;
+	}
+	.top_section #above_fold {
+		height: 200px;
+		width: 150px;
+		padding: 2px 5px;
+	}
+	.top_section input[type=email] {
+ 		width: 130px;
+  		height: 20px;
+  		border-radius: 2px;
+	}
+	.top_section input[type=submit] {
+ 		width: 95px;
+  		height: 25px;
+  		border-radius: 2px;
+  		font-size: small;
+	}
+	.top_section #above_fold .search_button {
+  		width: 225px;
+  		height: 30px;
+  		border-radius: 5px 3px 3px 5px;
+  		line-height: 25px;
+  		padding: 2px;
+	}
+	.top_section #above_fold .arrow {
+  		border-bottom: 15px solid transparent;
+  		border-top: 15px solid transparent;
+ 		border-left: 15px solid #20609a;
+  		position: relative;
+  		bottom: 2px;
+	}
+	.ipad {
+		width: 200px;
+		height: 200px;
+	}
+	.secondsection {
+		height: 200px;
+		width: 100px;
+	}
+	.one_two_three .first {
+  		width: 75px;
+  		height: 100px;
+  		float: left;
+  		text-align: right;
+	}
+	.gray_bar {
+  		height: 125px;
+  		width: 100%;
+  		padding: 50px 0 35px 0;
+  		text-align: center;
+	}
+	.logos {
+		margin-left: 0;
+  		margin-right: 10px;
+  		width: 450px;
+  		height: 50px;
+  		padding-bottom: 10px;
+  		padding-right: 10px;
+  		border-top-width: 10px;
+  		padding-top: 10px;
+  		padding-left: 0;
+	}
+	.links {
+  		padding: 15px 0 0 150px;
+  		height: 100px;
+  		width: 100px;
+	}
+}
